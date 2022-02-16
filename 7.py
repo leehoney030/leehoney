@@ -10,18 +10,12 @@ def a():
 
 def b():
     if 'tmp[0]'=='tmp[1]'=='tmp[2]'==7:
-        print("gg")
+        print("777")
+    elif 'tmp[0]'=='tmp[1]'=='tmp[2]':
+        print("good")
+    elif 'tmp[0]'=='tmp[1]'or 'tmp[1]'=='tmp[2]'or'tmp[0]'=='tmp[2]':
+        print("nice")
     else:
-        print("sr")
-
-
-#tmp? 스트링? 도 잘 모르겠는데 보고 해두 tmp로 정의한(?) 함수(?)를
-# 더하는법 ?
-
-#or
-
-def c():
-
-
-a()
-b()
+        print("sad")
+#작성하신 코드 보고 했는데 왜 tmp에 ''을 붙여야 인식?을 하는지와 a()에서 뽑은
+#숫자들을 더하려면 어떻게 해야하는지도 모르겠네요..
